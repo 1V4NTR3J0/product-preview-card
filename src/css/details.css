@@ -8,7 +8,7 @@
 }
 
 #details h5,
-#details h2 {
+#details h1 {
     margin-bottom: 1rem;
 }
 
@@ -21,7 +21,7 @@
 }
 
 
-#details h2{
+#details h1{
     text-transform: capitalize;
     font-family: var(--fraunces);
     font-size: 3rem;

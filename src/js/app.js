@@ -9,7 +9,7 @@
     const label = document.createElement("h5");
     label.textContent = "Perfume";
 
-    const title = document.createElement("h2");
+    const title = document.createElement("h1");
     title.textContent = "Gabrielle Essence Eau De Parfum";
 
     const description = document.createElement("p");
@@ -34,8 +34,8 @@
     button.textContent = "Add to Cart";
 
     const icon = document.createElement("img");
-    icon.src = "/images/icon-cart.svg";
-    icon.alt = "Add to Cart";
+    icon.src = "./images/icon-cart.svg";
+    icon.alt = "to Cart";
     button.append(icon);
 
     details.appendChild(label);
