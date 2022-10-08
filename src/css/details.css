@@ -1,0 +1,81 @@
+#details{
+    padding: 3rem;
+}
+@media (min-width: 768px) {
+    #details{
+        padding: 2.6rem;
+    }
+}
+
+#details h5,
+#details h2 {
+    margin-bottom: 1rem;
+}
+
+#details h5{
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--darkGrayishBlue);
+    letter-spacing: 3px;
+}
+
+
+#details h2{
+    text-transform: capitalize;
+    font-family: var(--fraunces);
+    font-size: 3rem;
+    line-height: 3rem;
+    color: var(--veryDarkBlue);
+}
+
+#details .description{
+    color: var(--darkGrayishBlue);
+    line-height: 2.2rem;
+    letter-spacing: .1rem;
+}
+
+#details .price{
+    color: var(--darkCyan);
+    font-family: var(--fraunces);
+    font-size: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+#details .exPrice{
+    color: var(--darkGrayishBlue);
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    text-decoration: line-through;
+    margin-left: 2rem;
+}
+
+#details button{
+    background-color: var(--darkCyan);
+    appearance: unset;
+    width: 100%;
+    padding: 1.6rem;
+    border-radius: var(--radiusButton);
+    border: none;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color ease-in-out .3s;
+}
+
+#details button img{
+    margin-right: 1rem;
+}
+
+#details button:hover{
+    background-color: var(--veryDarkBlue);
+}

@@ -1,0 +1,15 @@
+#imgPreview {
+  overflow: hidden;
+  background-image: url("../images/image-product-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 13rem 6rem;
+}
+
+@media (min-width: 768px) {
+  #imgPreview {
+    background-image: url("../images/image-product-desktop.jpg");
+    /* padding: 18rem; */
+  }
+}
